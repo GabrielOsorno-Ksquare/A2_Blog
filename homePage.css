@@ -1,0 +1,98 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #FFB329;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer{
+  background-color: #ffffff;
+  opacity: 0.65;
+  width: 30vw;
+  margin-top: 10%;
+  margin-bottom: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  opacity: 1;
+  color: #000000;
+  font-size: 75px;
+  margin: 0;
+}
+.subtitle{
+  opacity: 1;
+  color: #000000;
+  font-size: 35px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.mainImg{
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+.navBar{
+  height: 30px;
+  width: 75vw;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.link{
+  color: #000000;
+}
+.link:visited{
+  color: #000000;
+}
+
+.section{
+  width: 100vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionTitle{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+.sectionInfo{
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sectionImg{
+  max-height: 43vh;
+}
+
+.footer{
+  background-color: #ffffff;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
